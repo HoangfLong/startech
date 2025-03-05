@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Ảnh đại diện */
+.img-thumbnail {
+    border: 4px solid #fff;
+}
+
+/* Badge Kỹ Năng */
+.badge {
+    font-size: 16px;
+    width: 100%;
+}
+
+/* Card Dự Án */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
